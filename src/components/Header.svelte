@@ -4,16 +4,16 @@
 	import Code from './icons/Code.svelte';
 </script>
 
-<div class="p-2 flex items-center">
+<div class="p-4 md:p-2 flex items-center">
 	<div class="font-semibold text-lg cursor-pointer flex items-center">
 		<Code />
-		<span class="ml-1">Huseyin Can Soylu</span>
+		<a href="/" class="ml-1">Huseyin Can Soylu</a>
 	</div>
 	<div class="mr-auto flex items-center ml-8 space-x-8 mt-0.5">
-		<div class="cursor-pointer hover:underline">Works</div>
-		<div class="flex items-center cursor-pointer hover:underline">
+		<a href="/works" class="hidden md:inline-block cursor-pointer hover:underline">Works</a>
+		<div class="hidden md:flex items-center cursor-pointer hover:underline">
 			<GithubIcon />
-			<span class="pl-1">Source</span>
+			<a href="https://github.com/huseyincansoylu/portfolio" target="_blank" class="pl-1">Source</a>
 		</div>
 	</div>
 	<div

@@ -2,7 +2,7 @@ export const educations = [
 	{
 		name: 'EPICODE',
 		time: 'Feb 2021 - Sep 2021',
-		field: 'Full Stack Web Development'
+		field: 'Full Stack Web Development Bootcamp'
 	},
 	{
 		name: 'Çanakkale Onsekiz Mart University',
