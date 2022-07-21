@@ -3,9 +3,12 @@
 	import Header from '../components/Header.svelte';
 </script>
 
-<div class="bg-[#F0E7DB] dark:bg-[#202023] min-h-screen dark:text-[#FFFFFFEB]">
-	<div class="md:w-[800px] mx-auto">
+<div class="bg-[#F0E7DB] dark:bg-[#202023] min-h-screen dark:text-[#FFFFFFEB] ">
+	<div class="bg-[#F4EDE4] dark:bg-transparent">
 		<Header />
+	</div>
+
+	<div class="md:w-[800px] mx-auto">
 		<div class="mx-4 md:mx-24">
 			<img src="/dev.png" alt="hero" class="mx-auto" />
 			<slot />
