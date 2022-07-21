@@ -10,7 +10,7 @@
 		<a
 			href="https://github.com/huseyincansoylu"
 			target="_blank"
-			class="bg-[#313134] hover:bg-gray-200 py-3 hover:text-black text-center rounded-lg cursor-pointer flex items-center justify-center transition"
+			class="bg-white dark:bg-[#313134] hover:bg-[#67C8B7] dark:hover:bg-gray-200 py-3 hover:text-black text-center rounded-lg cursor-pointer flex items-center justify-center transition"
 		>
 			<span class="text-lg mr-2"><GithubIcon /></span>
 			Github
@@ -18,7 +18,7 @@
 		<a
 			href="https://www.linkedin.com/in/hcsoylu/"
 			target="_blank"
-			class="bg-[#313134] hover:bg-gray-200 py-3 hover:text-black text-center rounded-lg cursor-pointer flex items-center justify-center transition"
+			class="bg-white dark:bg-[#313134] hover:bg-[#67C8B7] dark:hover:bg-gray-200 py-3 hover:text-black text-center rounded-lg cursor-pointer flex items-center justify-center transition"
 		>
 			<span class="text-lg mr-2"><Linkedin /></span>
 			Linkedin
@@ -26,7 +26,7 @@
 		<a
 			href="https://www.instagram.com/hcsoylu/"
 			target="_blank"
-			class="bg-[#313134] hover:bg-gray-200 py-3 hover:text-black text-center rounded-lg cursor-pointer flex items-center justify-center transition"
+			class="bg-white dark:bg-[#313134] hover:bg-[#67C8B7] dark:hover:bg-gray-200 py-3 hover:text-black text-center rounded-lg cursor-pointer flex items-center justify-center transition"
 		>
 			<span class="text-lg mr-2"><Instagram /></span>
 			Instagram

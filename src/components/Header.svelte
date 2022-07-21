@@ -2,6 +2,20 @@
 	import GithubIcon from './icons/GithubIcon.svelte';
 	import Sun from './icons/Sun.svelte';
 	import Code from './icons/Code.svelte';
+	import Moon from './icons/Moon.svelte';
+	import { darkMode } from '../store';
+
+	function toggleDarkMode() {
+		if ($darkMode === true) {
+			document.documentElement.classList.remove('dark');
+			darkMode.set(false);
+		} else {
+			document.documentElement.classList.add('dark');
+			darkMode.set(true);
+		}
+	}
+
+	$: console.log($darkMode);
 </script>
 
 <div class="p-4 md:p-2 flex items-center">
@@ -17,8 +31,13 @@
 		</div>
 	</div>
 	<div
-		class="bg-[#FBD38D] h-10 w-10 rounded-md flex items-center justify-center text-black cursor-pointer hover:bg-[#F6AD55]"
+		on:click={toggleDarkMode}
+		class="bg-[#6B46C1] dark:bg-[#FBD38D] h-10 w-10 rounded-md flex items-center justify-center text-white dark:text-black cursor-pointer dark:hover:bg-[#F6AD55]"
 	>
-		<Sun />
+		{#if $darkMode}
+			<Sun />
+		{:else}
+			<Moon />
+		{/if}
 	</div>
 </div>

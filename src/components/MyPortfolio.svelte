@@ -8,7 +8,7 @@
 		<button>
 			<a
 				href="/works"
-				class="px-4 py-2 rounded-md bg-[#4DAE9D] mt-6 font-semibold flex items-center"
+				class="px-4 py-2 rounded-md bg-[#67C8B7] dark:bg-[#4DAE9D] mt-6 font-semibold flex items-center"
 				>My portfolio <span class="ml-2 md:mt-1"><ArrowRight /></span>
 			</a>
 		</button>
