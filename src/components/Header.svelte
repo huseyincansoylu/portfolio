@@ -14,8 +14,6 @@
 			darkMode.set(true);
 		}
 	}
-
-	$: console.log($darkMode);
 </script>
 
 <div class="md:w-[800px] mx-auto">

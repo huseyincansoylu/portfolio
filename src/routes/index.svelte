@@ -1,7 +1,7 @@
 <script lang="ts">
 	import StudyAndExperience from '../components/StudyAndExperience.svelte';
 	import Welcome from '../components/Welcome.svelte';
-	import { educations, experience } from '../constants';
+	import { educations, experience } from '../data';
 	import Social from '../components/Social.svelte';
 	import Hobbies from '../components/Hobbies.svelte';
 	import MyPortfolio from '../components/MyPortfolio.svelte';
