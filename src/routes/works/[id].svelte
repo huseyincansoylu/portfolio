@@ -7,11 +7,16 @@
 	const project = projects.find((project) => project.id === parseInt(id));
 </script>
 
+<svelte:head>
+	<title>{project?.name} - Huseyin Can Soylu</title>
+</svelte:head>
 {#if project}
 	<div>
-		<h4 class="text-center text-2xl">{project?.name}</h4>
-		<p class="mt-6">{project?.desc}</p>
-		<div class="py-4 space-y-2">
+		<h4 class="text-white bg-[#C75183] font-semibold  px-2 py-1 rounded-md text-base w-max mx-auto">
+			{project?.name.toUpperCase()}
+		</h4>
+		<p class="mt-6 italic tracking-wide">{project.info || project.desc}</p>
+		<div class="py-4 space-y-2 my-2">
 			<div class="flex items-center">
 				<span
 					class="text-green-300 font-semibold bg-green-300 bg-opacity-30 px-2 rounded-md text-sm"
@@ -24,6 +29,7 @@
 				>
 				<span class="pl-1"><LinkIcon /></span>
 			</div>
+
 			<div class="flex items-center">
 				<span
 					class="text-green-300 font-semibold bg-green-300 bg-opacity-30 px-2 rounded-md text-sm"
