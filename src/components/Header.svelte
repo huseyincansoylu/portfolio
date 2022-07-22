@@ -16,7 +16,7 @@
 	}
 </script>
 
-<div class="md:w-[800px] mx-auto">
+<div class="md:w-[800px] mx-auto backdrop-filter backdrop-blur">
 	<div class="p-4 md:p-2 flex items-center">
 		<a href="/" class="font-semibold text-lg cursor-pointer flex items-center">
 			<Code />

@@ -48,7 +48,7 @@ export const projects = [
 		id: 3,
 		name: 'Twitter Clone',
 		src: ['/twitter1.png', '/twitter2.png', '/twitter3.png'],
-		desc: 'No need for a description, everybody knows and likes Twitter and this is a clone of Twitter with basic functionality.',
+		desc: 'Everyone knows and likes Twitter and this is a clone of Twitter with basic functionality.',
 		link: 'https://twitter-clone-nextjs-gamma.vercel.app/',
 		tech: ['Nextjs', 'React', 'Firebase', 'TailwindCss', 'Recoil'],
 		repo: 'https://github.com/huseyincansoylu/twitter-clone-nextjs',

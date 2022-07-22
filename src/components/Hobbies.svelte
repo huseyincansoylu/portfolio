@@ -4,6 +4,6 @@
 
 <HomeSlot title="I ♥">
 	<div class="mt-6">
-		<p>Music, Playing guitar, Football, Travelling</p>
+		<p>Music, Playing guitar, Football, Travelling , Reading, Camping</p>
 	</div>
 </HomeSlot>
