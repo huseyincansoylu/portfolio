@@ -15,7 +15,7 @@
 		<div class="ml-auto flex items-center space-x-8 mt-0.5">
 			<a
 				href="/works"
-				class={`text-lg md:text-base  underline-offset-4 inline-block cursor-pointer hover:underline ${
+				class={`underline-offset-4 inline-block cursor-pointer md:hover:underline ${
 					isRootWorks && 'text-[#4DAE9D]'
 				}`}>Works</a
 			>
