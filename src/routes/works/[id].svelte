@@ -12,9 +12,12 @@
 </svelte:head>
 {#if project}
 	<div>
-		<h4 class="text-white bg-[#C75183] font-semibold  px-2 py-1 rounded-md text-base w-max mx-auto">
-			{project?.name.toUpperCase()}
-		</h4>
+		<div class="flex justify-center">
+			<h4 class="text-white bg-[#C75183] px-2 py-1 font-semibold rounded-md">
+				{project?.name.toUpperCase()}
+			</h4>
+		</div>
+
 		<p class="mt-6 italic tracking-wide">{project.info || project.desc}</p>
 		<div class="py-4 space-y-2 my-2">
 			<div class="flex items-center">
@@ -59,7 +62,7 @@
 					class="text-green-300 font-semibold bg-green-300 bg-opacity-30 px-2 rounded-md text-sm"
 					>TECH</span
 				>
-				<span class="text-orange-300 pl-2">{project.tech}</span>
+				<span class="text-orange-300 pl-2 ">{project.tech}</span>
 			</div>
 		</div>
 
