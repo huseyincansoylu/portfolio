@@ -68,7 +68,7 @@
 
 		<div class="grid grid-cols-1  gap-6">
 			{#each project.src as item}
-				<img src={item} alt="project-showcase" class="object-contain rounded-xl cursor-pointer" />
+				<img src={item} alt="project-showcase" class="object-contain rounded-xl" />
 			{/each}
 		</div>
 	</div>

@@ -52,6 +52,6 @@ export const projects = [
 		link: 'https://twitter-clone-nextjs-gamma.vercel.app/',
 		tech: ['Nextjs', 'React', 'Firebase', 'TailwindCss', 'Recoil'],
 		repo: 'https://github.com/huseyincansoylu/twitter-clone-nextjs',
-		info: 'No need for a description, everybody knows and likes Twitter and this is a clone of Twitter with basic functionality. You can log in with your Gmail account and then add or delete your tweets. You can also comment out or like tweets if you would like to.'
+		info: 'Everyone knows and likes  Twitter and this is a clone of Twitter with basic functionality. You can log in with your Gmail account and then add or delete your tweets. You can also comment out or like/unlike tweets if you would like to.'
 	}
 ];
