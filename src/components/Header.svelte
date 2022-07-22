@@ -1,6 +1,7 @@
 <script lang="ts">
 	import GithubIcon from './icons/GithubIcon.svelte';
 	import Code from './icons/Code.svelte';
+	import Case from './icons/Case.svelte';
 	import { page } from '$app/stores';
 
 	$: isRootWorks = $page.routeId === 'works';
@@ -12,10 +13,11 @@
 			<Code />
 			<span class="ml-1">Huseyin Can Soylu</span>
 		</a>
-		<div class="ml-auto flex items-center space-x-8 mt-0.5">
+		<div class="ml-auto flex items-center space-x-8">
+			<a href="/works" class={`${isRootWorks && 'text-[#4DAE9D]'}`}><Case /></a>
 			<a
 				href="/works"
-				class={`underline-offset-4 inline-block cursor-pointer md:hover:underline ${
+				class={`underline-offset-4 hidden md:inline-block cursor-pointer md:hover:underline ${
 					isRootWorks && 'text-[#4DAE9D]'
 				}`}>Works</a
 			>
