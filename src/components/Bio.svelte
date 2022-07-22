@@ -3,13 +3,18 @@
 </script>
 
 <HomeSlot title="Bio">
-	<div class="mt-6">
+	<div class="mt-6 italic space-y-4">
 		<p>
-			Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate placeat explicabo dolorum
-			aut, necessitatibus aspernatur laboriosam ipsum non ullam libero exercitationem officia quasi
-			repellat, earum ad est quia esse odio? Lorem ipsum dolor sit amet consectetur adipisicing
-			elit. Cupiditate placeat explicabo dolorum aut, necessitatibus aspernatur laboriosam ipsum non
-			ullam libero exercitationem officia quasi repellat, earum ad est quia esse odio?
+			I am a full-stack software engineer focusing on JavaScript & TypeScript, Node, React, Nextjs
+			and the gorgeous Svelte.
+		</p>
+		<p>
+			Although I am focusing on JavaScript, I am training myself as a language agnostic-dev. I love
+			Functional Programming concepts.
+		</p>
+		<p>
+			I am also interested in Cloud solutions such as AWS/GCP/AZURE, actively learning AWS and I am
+			working towards AWS certification.
 		</p>
 	</div>
 </HomeSlot>
