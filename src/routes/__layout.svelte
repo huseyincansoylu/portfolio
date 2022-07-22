@@ -3,10 +3,8 @@
 	import Header from '../components/Header.svelte';
 </script>
 
-<div class="bg-[#F0E7DB] dark:bg-[#202023] min-h-screen dark:text-[#FFFFFFEB] ">
-	<div
-		class="bg-[#F4EDE4] dark:bg-transparent fixed w-full backdrop-filter backdrop-blur bg-opacity-50"
-	>
+<div class="bg-[#202023] min-h-screen text-[#FFFFFFEB] ">
+	<div class="bg-transparent fixed w-full backdrop-filter backdrop-blur bg-opacity-50">
 		<Header />
 	</div>
 
@@ -16,7 +14,7 @@
 			<slot />
 		</div>
 
-		<footer class="text-center text-black dark:text-[#727274] text-sm py-10 font-semibold mt-auto">
+		<footer class="text-center text-[#727274] text-sm py-10 font-semibold mt-auto">
 			© 2022 Huseyin Can Soylu. All Rights Reserved.
 		</footer>
 	</div>
