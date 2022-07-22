@@ -73,5 +73,5 @@
 		</div>
 	</div>
 {:else}
-	<p class="text-center my-14">We could not find the project with this #{id}</p>
+	<p class="text-center">No project with this id:{id}</p>
 {/if}
