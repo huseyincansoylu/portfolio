@@ -25,7 +25,12 @@
 				<a
 					href={project.repo}
 					target="_blank"
-					class="pl-2 text-base text-orange-300 hover:underline">{project.repo}</a
+					class="hidden md:block pl-2 text-base text-orange-300 hover:underline">{project.repo}</a
+				>
+				<a
+					href={project.repo}
+					target="_blank"
+					class="md:hidden pl-2 text-base text-orange-300 hover:underline">go to repo</a
 				>
 				<span class="pl-1"><LinkIcon /></span>
 			</div>
@@ -38,7 +43,12 @@
 				<a
 					href={project.link}
 					target="_blank"
-					class="pl-2 text-base text-orange-300 hover:underline">{project.link}</a
+					class="hidden md:block pl-2 text-base text-orange-300 hover:underline">{project.link}</a
+				>
+				<a
+					href={project.link}
+					target="_blank"
+					class="md:hidden pl-2 text-base text-orange-300 hover:underline">go to webite</a
 				>
 				<span class="pl-1"><LinkIcon /></span>
 			</div>
