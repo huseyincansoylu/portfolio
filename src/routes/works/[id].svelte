@@ -53,7 +53,7 @@
 					href={project.link}
 					target="_blank"
 					class="md:hidden pl-2 text-base text-orange-300 underline underline-offset-4"
-					>go to webite</a
+					>go to website</a
 				>
 				<span class="pl-1"><LinkIcon /></span>
 			</div>
